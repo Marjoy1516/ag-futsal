@@ -19,6 +19,7 @@
     top: 6.9vh;
     left: 0;
     width: 30%;
+    border-radius: 2px;
   }
 
  .cabecalho__menu-aberto__lista {
@@ -32,6 +33,7 @@
  .cabecalho__menu-aberto__lista__item {
     font-family: var(--fonte-titulos);
     font-size: 20px;
+    text-transform: uppercase;
     
  }
 
@@ -52,6 +54,37 @@
     width: 45px;
 }
 
+.cabecalho__menu-escudo-aberto {
+    display: none;
+    flex-direction: column;
+    background-color: var(--cor-primaria);
+    position: absolute;
+    top: 7vh;
+    margin-left: 17%;
+    width: 50%;
+    border-radius: 2px;
+}
+
+.cabecalho__menu-escudo-aberto__lista {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 3vh;
+    padding: 2vh 2vh;
+}
+
+.cabecalho__menu-aberto__lista__logo {
+    width: 40px;
+}
+
+.cabecalho__menu-aberto__lista__logo__river {
+    width: 40px;
+}
+
+.activeEscudo {
+    display: flex;
+}
+
 .cabecalho__logo-app {
     margin-left: -10%;
 }
@@ -59,4 +92,8 @@
 .cabecalho__icone-instagram {
     width: 52px;
     margin-right: 1.5%;
+}
+
+.cabecalho__link-instagram {
+    padding: 1% 1% 1% 0;
 }
