@@ -11,6 +11,39 @@
     gap: 4px;
 }
 
+.cabecalho__menu-aberto {
+    display: none;
+    flex-direction: column;
+    background-color: var(--cor-primaria);
+    position: absolute;
+    top: 6.9vh;
+    left: 0;
+    width: 30%;
+  }
+
+ .cabecalho__menu-aberto__lista {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    gap: 3vh;
+    padding: 2vh 2vh;
+ }
+
+ .cabecalho__menu-aberto__lista__item {
+    font-family: var(--fonte-titulos);
+    font-size: 20px;
+    
+ }
+
+ .cabecalho__menu-aberto__lista__link {
+    text-decoration: none;
+    color: var(--preto);
+ }
+
+.active {
+    display: flex;
+}
+
 .cabecalho__menu-escudo__menu {
     width: 60px;
 }
@@ -20,7 +53,7 @@
 }
 
 .cabecalho__logo-app {
-    margin-right: 10%;
+    margin-left: -10%;
 }
 
 .cabecalho__icone-instagram {
