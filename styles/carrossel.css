@@ -15,3 +15,51 @@
     display: flex;
     justify-content: center;
 }
+
+.carrossel-container {
+    width: 90%; /* Ajuste conforme necessário */
+    height: 40vh; /* Ajuste conforme necessário */
+    overflow-y: scroll;
+  }
+  
+  .carossel {
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.5s ease;
+  }
+  
+  .card {
+    width: 100%;
+    height: 25vh; /* Ajuste conforme necessário */
+    background-color: #f0f0f0;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 24px;
+    align-items: center;
+    gap: 4vw;
+  }
+
+  .card__img {
+    width: 150px;
+  }
+  .card__img__bodao {
+    width: 150px;
+    border-radius: 20px;
+    padding-left: 2vw;
+  }
+
+  .card__texto {
+    display: grid;
+    gap: 3vh;
+    padding-right: 2vw;
+  }
+
+  .card__texto__titulo {
+    font-family: var(--fonte-titulos);
+    font-size: 2rem;
+  }
+
+  .card__texto__texto {
+    font-family: var(--fonte-textos);
+  }

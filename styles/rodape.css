@@ -8,7 +8,7 @@
 }
 
 .rodape__texto {
-    font-family: var(--fonte-textos);
+    font-family: var(--fonte-titulos);
     font-weight: 500;
 }
 
