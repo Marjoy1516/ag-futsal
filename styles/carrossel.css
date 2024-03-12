@@ -1,0 +1,17 @@
+.carrossel-noticias {
+    background: var(--cor-terciaria);
+    height: 40vh;
+    border-radius: 20px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.carrossel-partidas {
+    background: var(--cor-terciaria);
+    height: 30vh;
+    border-radius: 20px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+}

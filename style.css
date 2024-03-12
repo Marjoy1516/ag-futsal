@@ -1,0 +1,20 @@
+@import url(./styles/header.css);
+@import url(./styles/banner.css);
+@import url(./styles/carrossel.css);
+@import url(./styles/rodape.css);
+
+:root {
+    --cor-primaria: #e9ccb5;
+    --cor-secundaria: #efd9c8;
+    --cor-terciaria: #f4e6da;
+    --cor-quaternaria: #faf2ed;
+    --branco: #FFFFFF;
+    --preto: 000000#;
+
+    --fonte-titulos: "Ubuntu", sans-serif;
+    --fonte-textos: "Open Sans", sans-serif;
+}
+
+.quebra {
+    margin: 2vh 0; 
+}

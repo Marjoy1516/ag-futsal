@@ -1,0 +1,29 @@
+.cabecalho {
+    height: 7vh;
+    background: var(--cor-primaria);
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabecalho__menu-escudo{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.cabecalho__menu-escudo__menu {
+    width: 60px;
+}
+
+.cabecalho__menu-escudo__escudo {
+    width: 45px;
+}
+
+.cabecalho__logo-app {
+    margin-right: 10%;
+}
+
+.cabecalho__icone-instagram {
+    width: 52px;
+    margin-right: 1.5%;
+}
