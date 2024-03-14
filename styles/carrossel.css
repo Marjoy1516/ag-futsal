@@ -63,3 +63,16 @@
   .card__texto__texto {
     font-family: var(--fonte-textos);
   }
+
+
+  .carrossel-h{         /*Classe do carrosel horizontal */
+    overflow-y: hidden; /*Foi necessario para desativar o scroll vertical que tinha*/
+    overflow-x: auto;
+    display: flex;
+  }
+
+  .item1, .item2{       /*Itens do carrosel horizontal */
+    display: inline-block;
+    margin-right: 5px;
+    padding: 10px;
+  }
