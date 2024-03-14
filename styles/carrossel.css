@@ -57,11 +57,12 @@
 
   .card__texto__titulo {
     font-family: var(--fonte-titulos);
-    font-size: 2rem;
+    font-size: 1.5em;
   }
 
   .card__texto__texto {
     font-family: var(--fonte-textos);
+    font-size: 0.8em;
   }
 
 

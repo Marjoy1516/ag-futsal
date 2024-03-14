@@ -1,8 +1,8 @@
 .banner {
     height: 5vh;
     background: var(--cor-secundaria);
-    margin: 2vh 25%;
-    width: 50%;
+    margin: 2vh 24%;
+    width: 55%;
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -13,5 +13,6 @@
     font-family: var(--fonte-titulos);
     font-weight: 700;
     font-size: 20px;
+    white-space: nowrap;
     
 }
