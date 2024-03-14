@@ -3,6 +3,7 @@
     background: var(--cor-primaria);
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .cabecalho__menu-escudo{
@@ -87,6 +88,7 @@
 
 .cabecalho__logo-app {
     margin-left: -10%;
+    width: 45px;
 }
 
 .cabecalho__icone-instagram {
