@@ -93,6 +93,10 @@
 
 .cabecalho__icone-instagram {
     width: 48px;
-    margin-right: 1.5%;
+    
+}
+
+.cabecalho__link-instagram {
+    padding-right: 1%;
 }
 
