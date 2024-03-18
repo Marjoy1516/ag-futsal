@@ -1,12 +1,15 @@
 function toggleMenu() {
-    const menu = document.getElementById('menu');
-    menu.classList.toggle('active');
-  }
+  const menu = document.getElementById('menu');
+  menu.classList.toggle('active');
+  menuEscudo.classList.remove('activeEscudo');
+}
 
 function toggleMenuEscudo() {
   const menuEscudo = document.getElementById('menuEscudo');
   menuEscudo.classList.toggle('activeEscudo');
+  menu.classList.remove('active');
 }
+
 
 document.addEventListener('DOMContentLoaded', () => {
   const carousel = document.querySelector('.carrosel');
