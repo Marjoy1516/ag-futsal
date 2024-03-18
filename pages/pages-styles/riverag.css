@@ -1,0 +1,43 @@
+/* header */
+
+.cabecalho {
+    background-color: var(--branco);
+}
+
+.cabecalho__escudo-river {
+    width: 60px;
+}
+
+/* NAVEGAÇÃO */
+
+.navegacao {
+    background-color:  #CCCCCC;
+    padding: 1vh;
+    margin: 0 0 1vh 0;
+}
+
+.navegacao__time {
+    background-color:  #CCCCCC;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navegacao__time__link {
+    text-transform: uppercase;
+    font-family: var(--fonte-titulos);
+    font-size: 1em;
+}
+
+/* MAIN */
+.main__time {
+    background-color: #DC1E35;
+    height: 70vh; /* TIRAR DEPOIS */
+    
+}
+
+/* FOOTER */
+
+.rodape {
+    background-color: #CCCCCC;
+    margin: 1vh 0 0 0;
+}
